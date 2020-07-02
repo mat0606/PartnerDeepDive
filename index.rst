@@ -1,0 +1,28 @@
+.. title:: STEE Partner Deep Dive Bootcamp
+
+.. toctree::
+  :maxdepth: 2
+  :caption: EScript & Task Libary
+  :name: _calm_escript
+  :hidden:
+
+  calm_escript/calm_escript
+
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Nutanix Calm for Day 2 Operation
+  :name: _calm_api
+  :hidden:
+
+  calm_api/calm_api
+  
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Windows Workload: Bugs Tracker App
+  :name: _
+  :hidden:
+
+  calm_windows_track/calm_windows_app/calm_windows_app
+  
