@@ -26,6 +26,14 @@
 
 .. toctree::
   :maxdepth: 2
+  :caption: Windows Workload: Bugs Tracker App
+  :name: _
+  :hidden:
+
+  calm_windows_track/calm_windows_app/calm_windows_app   
+
+.. toctree::
+  :maxdepth: 2
   :caption: EScript & Task Libary
   :name: _calm_escript
   :hidden:
@@ -42,11 +50,4 @@
   calm_api/calm_api
   
 
-.. toctree::
-  :maxdepth: 2
-  :caption: Windows Workload: Bugs Tracker App
-  :name: _
-  :hidden:
 
-  calm_windows_track/calm_windows_app/calm_windows_app
-  
