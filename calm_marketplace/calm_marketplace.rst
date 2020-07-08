@@ -22,15 +22,15 @@ By default, Calm comes pre-seeded with validated Blueprints for multiple open so
 
 #. Select the **Calm** project from the right-hand side drop down and Click **Publish**.
 
-.. figure:: images/5.10/marketplace_p1_1.png
+.. figure:: images/5.17/mongo_marketplace_1.png
 
 #. Wait for the Blueprint **Status** to appear as **Published**.
 
-.. figure:: images/5.10/marketplace_p1_2.png
+.. figure:: images/5.17/mongo_marketplace_2.png
 
-#. Under **Projects Shared With**, select the **Calm** Project and click **Apply**.
+#. Under **Projects Shared With**, select the Project you had created earlier and click **Apply**.
 
-.. figure:: images/5.10/marketplace_p1_3.png
+.. figure:: images/5.17/mongo_marketplace_3.png
 
 .. note::
 
@@ -41,7 +41,7 @@ Cloning Blueprints from Marketplace
 
 #. From **Prism Central > Calm**, select |mkt-icon| **Marketplace** from the sidebar. All Blueprints published in Marketplace Manager are visible here.
 
-.. figure:: images/5.10/marketplace_p1_4.png
+.. figure:: images/5.17/mongo_marketplace_4.png
 
 #. Select the **Mongo** Blueprint and click **Clone**.
 
@@ -49,7 +49,7 @@ Cloning Blueprints from Marketplace
 
   Selecting **Actions Included** for a Blueprint will display the actions that have been implemented for a given Blueprint, such as Create, Start, Stop, Delete, Update, Scale Up, Scale Down, etc.
 
-.. figure:: images/5.10/marketplace_p1_5.png
+.. figure:: images/5.17/mongo_marketplace_5.png
 
 #. Fill out the following fields and click **Clone**:
 
@@ -78,7 +78,7 @@ Editing Cloned Blueprint
 #. Select the **Mongo_ConfigSet** Service and make the following changes in the **Configuration Pane**:
 
 - Update the **VM Configuration > Image** to **CentOS**.
-- Update the **Network Adapters > NIC** to **Primary**.
+- Update the **Network Adapters > NIC** to **Rx-Automation-Network**.
 - Update the **Connection > Credential** to **CENTOS**.
 - Uncheck **Guest Customization**
 
@@ -88,7 +88,7 @@ Editing Cloned Blueprint
 
 #. Click **Launch**. Specify a unique **Application Name** (e.g. MongoDB*<INITIALS>*-1) and click **Create**.
 
-.. figure:: images/5.10/marketplace_p1_8.png
+.. figure:: images/5.17/mongo_marketplace_running.png
 
 
 Takeaways
