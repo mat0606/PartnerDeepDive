@@ -43,7 +43,13 @@ Creating the Blueprint
 
 #. Click **Save** and return back to the Blueprint Editor.
 
-#. Click **Configuration** and create the following **Downloadable Image Configuration**:
+#. 
+
+   .. note::
+
+   This step illustrated the ability to download the image dynamically.  This iso file was more than 3 GB and would take some time to load.  Skip this step because the iso file was already uploaded in the image in Prism Central.  
+
+Click **Configuration** and create the following **Downloadable Image Configuration**:
 
    - **Package Name** - MSSQL2014_ISO
    - **Description** - Microsoft SQL 2014 Installation ISO
@@ -100,7 +106,7 @@ Adding Services
    +------------------------------+---------------------------+---------------------------+
    | **Number of Images**         | 2                         | 1                         |
    +------------------------------+---------------------------+---------------------------+
-   | **Image 1**                  | Windows2012R2             | Windows2012R2             |
+   | **Image 1**                  | Windows2016               | Windows2016               |
    +------------------------------+---------------------------+---------------------------+
    | **Device Type 1**            | DISK                      | DISK                      |
    +------------------------------+---------------------------+---------------------------+

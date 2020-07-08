@@ -27,6 +27,9 @@ Projects are the logical construct that integrate Calm with Nutanix’s native S
 
    .. figure:: images/project_quota.png
 
+Configure the Environment in Project
+....................................
+
 #. Expand the **Linux** section.  Copy the **cloud-init** contents into the **Guest Customization**
   
    .. code-block:: bash
