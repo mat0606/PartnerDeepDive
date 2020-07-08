@@ -56,40 +56,13 @@ Cloning Blueprints from Marketplace
 - **Blueprint Name** - MongoDB*<INITIALS>*
 - **Project** - Calm
 
-Editing Cloned Blueprint
-........................
+#.  Fill in the application name and click on **Launch**
 
-#. Select |bp-icon| **Blueprints** from the sidebar and click your **MongoDB<INITIALS>** Blueprint to open the Blueprint Editor.
+.. figure:: images/5.17/mongo_marketplace_launch.png
 
-.. figure:: images/5.10/marketplace_p1_6.png
+#.  This picture showed the successful launch of the application
 
-#. Click :fa:`exclamation-circle` to review the list of errors that would prevent a successful deployment of the Blueprint.
-
-.. figure:: images/5.10/marketplace_p1_7.png
-
-#. Click **Credentials** and select **CENTOS (Default)**.
-
-#. Fill out the following fields and click **Back**:
-
-- **Username** - root
-- **Secret** - Password
-- **Password** - nutanix/4u
-
-#. Select the **Mongo_ConfigSet** Service and make the following changes in the **Configuration Pane**:
-
-- Update the **VM Configuration > Image** to **CentOS**.
-- Update the **Network Adapters > NIC** to **Rx-Automation-Network**.
-- Update the **Connection > Credential** to **CENTOS**.
-- Uncheck **Guest Customization**
-
-#. Repeat these steps for the **Mongo_Router** and **Mongo_ReplicaSet** Services.
-
-#. Click **Save**.
-
-#. Click **Launch**. Specify a unique **Application Name** (e.g. MongoDB*<INITIALS>*-1) and click **Create**.
-
-.. figure:: images/5.17/mongo_marketplace_running.png
-
+.. figure:: images/5.17/mongo_marketplace_success.png
 
 Takeaways
 +++++++++
