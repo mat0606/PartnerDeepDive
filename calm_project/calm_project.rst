@@ -1,3 +1,5 @@
+.. _calm_project:
+
 Create a Project in Calm
 ++++++++++++++++++++++++
 
