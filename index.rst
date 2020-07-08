@@ -2,6 +2,22 @@
 
 .. toctree::
   :maxdepth: 2
+  :caption: What is Calm
+  :name: _what_is_calm
+  :hidden:
+
+  what_is_calm/what_is_calm
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Calm MarketPlace
+  :name: _what_is_calm
+  :hidden:
+
+  calm_marketplace/calm_marketplace
+
+.. toctree::
+  :maxdepth: 2
   :caption: EScript & Task Libary
   :name: _calm_escript
   :hidden:

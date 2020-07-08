@@ -131,7 +131,7 @@ In this exercise, we're going to be creating a custom action for our application
 
      # Set the headers, url, and payload
      headers = {'Content-Type': 'application/json', 'Accept': 'application/json'}
-     url     = "https://@@{address}@@:9440/api/nutanix/v3/@@{kind}@@/list"
+     url     = "https://@@{address}@@:9440/api/nutanix/v3/@@{kind}@@vms/list"
      payload = {}
 
      # Make the request
