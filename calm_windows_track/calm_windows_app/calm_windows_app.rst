@@ -47,9 +47,9 @@ Creating the Blueprint
 
    .. note::
 
-   This step illustrated the ability to download the image dynamically.  This iso file was more than 3 GB and would take some time to load.  Skip this step because the iso file was already uploaded in the image in Prism Central.  
+   **This step illustrated the ability to download the image dynamically.  This iso file was more than 3 GB and would take some time to load.  Skip this step because the iso file was already uploaded in the image in Prism Central.** 
 
-Click **Configuration** and create the following **Downloadable Image Configuration**:
+  Click **Configuration** and create the following **Downloadable Image Configuration**:
 
    - **Package Name** - MSSQL2014_ISO
    - **Description** - Microsoft SQL 2014 Installation ISO
@@ -150,7 +150,7 @@ Adding Services
    +------------------------------+---------------------------+---------------------------+
    | **Network Adapters**         | 1                         | 1                         |
    +------------------------------+---------------------------+---------------------------+
-   | **NIC 1**                    | Primary                   | Primary                   |
+   | **NIC 1**                    | Rx-Automation-Network     | Rx-Automation-Network     |
    +------------------------------+---------------------------+---------------------------+
    | **Check log-in upon create** | Yes                       | Yes                       |
    +------------------------------+---------------------------+---------------------------+
@@ -176,7 +176,7 @@ Adding Services
 
    .. note::
 
-      For those familiar with previous versions of Calm, the **Karan** service VM is no longer required to proxy PowerShell commands to the service VMs. Instead, Calm has introduced native support for running PowerShell scripts on remote hosts.
+      Since Calm 2.5, the **Karan** service VM is no longer required to proxy PowerShell commands to the service VMs. Instead, Calm has introduced native support for running PowerShell scripts on remote hosts.
 
    Similar to the Task Manager application in the :ref:`calm_linux` lab, you want to ensure the database is available prior to the IIS web server setup.
 
