@@ -18,21 +18,21 @@ By default, Calm comes pre-seeded with validated Blueprints for multiple open so
 
 #. Under **Marketplace Blueprints**, select **Mongo**.
 
-.. note:: The Blueprint description contains key information including licensing, hardware requirements, OS, supported platforms, and limitations.
+  .. note:: The Blueprint description contains key information including licensing, hardware requirements, OS, supported platforms, and limitations.
 
 #. Select the **Calm** project from the right-hand side drop down and Click **Publish**.
 
-.. figure:: images/5.17/mongo_marketplace_1.png
+  .. figure:: images/5.17/mongo_marketplace_1.png
 
 #. Wait for the Blueprint **Status** to appear as **Published**.
 
-.. figure:: images/5.17/mongo_marketplace_2.png
+  .. figure:: images/5.17/mongo_marketplace_2.png
 
 #. Under **Projects Shared With**, select the Project you had created earlier and click **Apply**.
 
-.. figure:: images/5.17/mongo_marketplace_3.png
+  .. figure:: images/5.17/mongo_marketplace_3.png
 
-.. note::
+  .. note::
 
   If the **Projects Shared With** drop down menu is unavailable, refresh your browser.
 
@@ -41,15 +41,15 @@ Cloning Blueprints from Marketplace
 
 #. From **Prism Central > Calm**, select |mkt-icon| **Marketplace** from the sidebar. All Blueprints published in Marketplace Manager are visible here.
 
-.. figure:: images/5.17/mongo_marketplace_4.png
+  .. figure:: images/5.17/mongo_marketplace_4.png
 
 #. Select the **Mongo** Blueprint and click **Clone**.
 
-.. note::
+  .. note::
 
   Selecting **Actions Included** for a Blueprint will display the actions that have been implemented for a given Blueprint, such as Create, Start, Stop, Delete, Update, Scale Up, Scale Down, etc.
 
-.. figure:: images/5.17/mongo_marketplace_5.png
+  .. figure:: images/5.17/mongo_marketplace_5.png
 
 #. Fill out the following fields and click **Clone**:
 
@@ -58,11 +58,11 @@ Cloning Blueprints from Marketplace
 
 #.  Fill in the application name and click on **Launch**
 
-.. figure:: images/5.17/mongo_marketplace_launch.png
+  .. figure:: images/5.17/mongo_marketplace_launch.png
 
 #.  This picture showed the successful launch of the application
 
-.. figure:: images/5.17/mongo_marketplace_success.png
+  .. figure:: images/5.17/mongo_marketplace_success.png
 
 Takeaways
 +++++++++
