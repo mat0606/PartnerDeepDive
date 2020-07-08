@@ -10,8 +10,16 @@
 
 .. toctree::
   :maxdepth: 2
+  :caption: Project
+  :name: _calm_project
+  :hidden:
+
+  calm_project/calm_project
+
+.. toctree::
+  :maxdepth: 2
   :caption: Calm MarketPlace
-  :name: _what_is_calm
+  :name: _calm_marketplace
   :hidden:
 
   calm_marketplace/calm_marketplace
