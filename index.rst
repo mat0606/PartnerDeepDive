@@ -27,7 +27,7 @@
 .. toctree::
   :maxdepth: 2
   :caption: Windows Workload: Bugs Tracker App
-  :name: _
+  :name: _calm_win
   :hidden:
 
   calm_windows_track/calm_windows_app/calm_windows_app   
