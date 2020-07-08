@@ -18,20 +18,19 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: Calm MarketPlace
-  :name: _calm_marketplace
-  :hidden:
-
-  calm_marketplace/calm_marketplace
-
-.. toctree::
-  :maxdepth: 2
   :caption: Windows Workload: Bugs Tracker App
   :name: _calm_win
   :hidden:
 
   calm_windows_track/calm_windows_app/calm_windows_app   
 
+.. toctree::
+  :maxdepth: 2
+  :caption: Calm MarketPlace
+  :name: _calm_marketplace
+  :hidden:
+
+  calm_marketplace/calm_marketplace
 .. toctree::
   :maxdepth: 2
   :caption: EScript & Task Libary
