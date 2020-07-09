@@ -36,25 +36,16 @@ By default, Calm comes pre-seeded with validated Blueprints for multiple open so
 
   If the **Projects Shared With** drop down menu is unavailable, refresh your browser.
 
-Cloning Blueprints from Marketplace
+Launch Blueprints from Marketplace
 ...................................
 
 #. From **Prism Central > Calm**, select |mkt-icon| **Marketplace** from the sidebar. All Blueprints published in Marketplace Manager are visible here.
 
   .. figure:: images/5.17/mongo_marketplace_4.png
 
-#. Select the **Mongo** Blueprint and click **Clone**.
-
-  .. note::
-
-  Selecting **Actions Included** for a Blueprint will display the actions that have been implemented for a given Blueprint, such as Create, Start, Stop, Delete, Update, Scale Up, Scale Down, etc.
+#. Select the **Mongo** Blueprint and click **Launch**.
 
   .. figure:: images/5.17/mongo_marketplace_5.png
-
-#. Fill out the following fields and click **Clone**:
-
-- **Blueprint Name** - MongoDB*<INITIALS>*
-- **Project** - Calm
 
 #.  Fill in the application name and click on **Launch**
 
