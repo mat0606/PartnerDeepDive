@@ -26,7 +26,7 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: Windows Workload: Bugs Tracker App
+  :caption: Linux Workload
   :name: _calm_linux
   :hidden:
 
