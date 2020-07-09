@@ -31,33 +31,6 @@ Nutanix Calm Marketplace and ServiceNow integration allowed our customer to prov
 One of the key benefits in our Private Cloud solution was to bring public cloud experience into the private cloud.  Automation was a key driver behind this.  The objectives were to equip our automation SMEs with the skill sets to help our customers to streamline the process and integrate with disparate technologies through the use of api.
 
 
-Create a Project in Calm
-++++++++++++++++++++++++
-
-Projects are the logical construct that integrate Calm with Nutanix’s native Self-Service Portal (SSP) capabilities, allowing an administrator to assign both infrastructure resources and the roles/permissions of Active Directory users/groups to specific Blueprints and Applications.
-
-
-#. Click on **Project** in the left hand toolbar .  Click on **Create Project**.
-
-   .. figure:: images/project_list.png
-
-#. Click on **Select Provider**.  Select **Nutanix**.
-
-   .. figure:: images/project_provider.png
-
-
-#. Click on **Select Clusters & Subnets**
-
-   .. figure:: images/cluster_subnets.png
-
-#. Select the **Rx-Automation-Network**.  Click on **Confirm**
-
-   .. figure:: images/project_network.png
-
-#. Click on **Save & Configure Environment**
-
-   .. figure:: images/project_quota.png
-
 Create a Blueprint in Calm
 ++++++++++++++++++++++++++
 
