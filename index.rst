@@ -30,7 +30,7 @@
   :name: _calm_linux
   :hidden:
 
-  calm_linux/calm_linux
+  calm_linux_track/calm_linux_app/calm_linux
 
 .. toctree::
   :maxdepth: 2
