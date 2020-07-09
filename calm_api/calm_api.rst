@@ -114,9 +114,9 @@ Blueprint is like an architect blueprint which design every facet from the pilla
 
    .. figure:: images/service_name.png
 
-#. Fill in the **VM Configuration**.
+#. Select Existing machine in the **VM Configuration**.
 
-   .. figure:: images/vm.png
+   .. figure:: images/vm-existing-machine.png
 
 #. Copy the **cloud-init** contents into the screen.
   
