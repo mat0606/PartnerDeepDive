@@ -26,6 +26,14 @@
 
 .. toctree::
   :maxdepth: 2
+  :caption: Windows Workload: Bugs Tracker App
+  :name: _calm_linux
+  :hidden:
+
+  calm_linux/calm_linux
+
+.. toctree::
+  :maxdepth: 2
   :caption: Calm MarketPlace
   :name: _calm_marketplace
   :hidden:
